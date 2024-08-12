@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: hsl(0, 0%, 91%);
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 2%;
+}
+
+.Logo{
+    height: 48px;
+    padding: 2%;
+    width: 120px;
+}
+
+.input-textarea {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    padding-bottom: 55%;
+    width: 150%;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+    resize: vertical; 
+    overflow-y: auto; 
+    height: 100px;
+}
+textarea::placeholder{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: darkblue;
+    font-size: 25px;
+}
+
+.botoes{
+    font-family: "Inter", sans-serif;
+}
+
+button{
+    background-color: darkblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 24px;
+    border-color: darkblue;
+}
+
+.botaoClaro{
+    background-color: #D8DFE8;
+    color: darkblue;
+    border-color: darkblue;
+}
+
+.divTexto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 2%;
+    width: 400px;
+    border-radius: 32px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500, 300;
+}
+
+.rodape {
+    background-color: darkblue;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
