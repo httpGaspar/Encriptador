@@ -61,11 +61,21 @@ button{
     border-radius: 24px;
     border-color: darkblue;
 }
+.criptografar:hover{
+    background-color: blue;
+    padding-left: 65px;
+    padding-right: 65px;
 
-.botaoClaro{
+}
+
+.descriptografar{
     background-color: #D8DFE8;
     color: darkblue;
     border-color: darkblue;
+}
+
+.descriptografar:hover{
+    background-color: #fff;
 }
 
 .divTexto{
@@ -86,6 +96,36 @@ button{
     font-weight: 500, 300;
 }
 
+#output-text {
+    margin-top: -300px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500, 300;
+    text-align: center;
+}
+
+#copy-button {
+    background-color: darkblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 24px;
+    border-color: darkblue;
+    position: absolute;
+    bottom: 120px;
+    margin-bottom: 70px;
+}
+    
+
+#copy-button:hover {
+    background-color: blue;
+    padding-left: 70px;
+    padding-right: 70px;
+}
 .rodape {
     background-color: darkblue;
     padding: 20px;

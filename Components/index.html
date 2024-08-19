@@ -16,21 +16,25 @@
         <div class="botoes">
             <p><img src="./Assets/alerta.png">Apenas letras minúsculas e sem acento.</p>
             <br>
-            <button onclick="Criptografar()">Criptografar</button>
-            <button class="botaoClaro" onclick="Descriptografar()">Descriptografar</button>
+            <button class="criptografar" clonclick="Criptografar()">Criptografar</button>
+            <button class="descriptografar" onclick="Descriptografar()">Descriptografar</button>
         </div>
         </section>
 
-    <div class="divTexto">
-        <img src="./Assets/High quality products 1 1.svg">
-        <h2><strong>Nenhuma mensagem <br> encontrada</strong></h2>
-        <br>
-        <p>Digite um texto que você deseja Criptografar ou <br> Descriptografar</p>
-    </div>
-
+        <div class="divTexto">
+            <img src="./Assets/High quality products 1 1.svg" id="image">
+            <h2><strong id="no-message">Nenhuma mensagem <br> encontrada</strong></h2>
+            <br>
+            <p id="description">Digite um texto que você deseja Criptografar ou <br> Descriptografar</p>
+            <div id="output-text"></div>
+            <button id="copy-button" style="display: none;">Copiar</button>
+        </div>        
+        
     <footer class="rodape">
-        <p>Desenvolvido por Lara Andrade</p>
+        <p>Desenvolvido por Lara Andrade em 2024</p>
     </footer>
+
+    <script src="./index.js"></script>
 
 </body>
 </html>
